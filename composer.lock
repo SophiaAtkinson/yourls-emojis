@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d8ae5b9fddab58bd68089f83a8564e1e",
+    "packages": [
+        {
+            "name": "steppinghat/emoji-detector",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SteppingHat/php-emoji-detector.git",
+                "reference": "d2301e9553795e1ac2f3f2638438b3808654c57f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SteppingHat/php-emoji-detector/zipball/d2301e9553795e1ac2f3f2638438b3808654c57f",
+                "reference": "d2301e9553795e1ac2f3f2638438b3808654c57f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^5.0@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SteppingHat\\EmojiDetector\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Javan Eskander",
+                    "homepage": "https://javaneskander.com"
+                }
+            ],
+            "description": "Detect and validate emoji in an input string",
+            "homepage": "https://github.com/steppinghat/emoji-detector",
+            "time": "2021-03-18T06:03:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.2"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
